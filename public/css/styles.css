@@ -1,0 +1,58 @@
+.members {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.members td,
+.members th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.members tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.members tr:hover {
+    background-color: #ddd;
+}
+
+.members th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white;
+}
+
+.duplicate-link {
+    position: absolute;
+    left: 722px;
+    top: 20px;
+    font-size: xx-large;
+}
+
+a:link,
+a:visited {
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: green;
+}
+
+h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 600px;
+}
